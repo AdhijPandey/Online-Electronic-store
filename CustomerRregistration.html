@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Registration</title>
+
+</head>
+<body><center><h1>
+	<form action="clog" method="post">
+		<table>
+			<tr>
+				<td><label for="cname">UserName:</label></td>
+				<td><input type="text" name="cname" id="cname" /></td>
+			</tr>
+			<tr>
+				<td><label for="cpwd">Password:</label></td>
+				<td><input type="password" name="cpwd" id="cpwd" /></td>
+			</tr>
+			<tr>
+				<td><label for="cfname">First Name:</label></td>
+				<td><input type="text" name="cfname" id="cfname" /></td>
+			</tr>
+			<tr>
+				<td><label for="clname">Last Name:</label></td>
+				<td><input type="text" name="clname" id="clname" /></td>
+			</tr>
+			<tr>
+				<td><label for="caddr">Address:</label></td>
+				<td><input type="text" name="caddr" id="caddr" /></td>
+			</tr>
+			<tr>
+				<td><label for="cmail">Mail Id:</label></td>
+				<td><input type="text" name="cmail" id="cmail" /></td>
+			</tr>
+			<tr>
+				<td><label for="cmobile">Mobile:</label></td>
+				<td><input type="text" name="cmobile" id="cmobile" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<input type="submit" value="Register" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</h1></center>
+<style>
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Table Styling */
+table {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Row Styling */
+tr {
+    padding: 10px;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Table Cell Padding */
+td {
+    padding: 8px;
+}
+
+/* Center the table */
+center {
+    width: 100%;
+}
+</style>
+</body>
+</html>
